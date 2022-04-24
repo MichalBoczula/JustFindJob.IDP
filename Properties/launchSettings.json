@@ -1,4 +1,16 @@
 {
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/JustFindJob.IDP",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:62244/",
+      "sslPort": 44320
+    }
+  },
   "profiles": {
     "SelfHost": {
       "commandName": "Project",
@@ -6,7 +18,11 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:5001"
+      "applicationUrl": "https://localhost:5002",
+      "jsWebView2Debugging": false
+    },
+    "IIS Express": {
+      "commandName": "IISExpress"
     }
   }
 }
